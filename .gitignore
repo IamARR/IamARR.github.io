@@ -1,0 +1,24 @@
+# ========== Hugo build output ==========
+public/          # default Hugo output (used if deploying via gh-pages branch)
+resources/       # Hugo's cache for image processing etc.
+/hugo_stats.json  # generated stats file (optional)
+.hugo_build.lock  # temporary build lock file
+
+# ========== GitHub Pages (docs/ method only) ==========
+# If you're using "docs/" instead of "public/", DO NOT ignore /docs/
+# Otherwise, uncomment the line below to ignore it
+# /docs/
+
+# ========== Node (if using npm or gh-pages tool) ==========
+node_modules/
+package-lock.json
+
+# ========== OS and editor junk ==========
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+
+# ========== Theme submodule ==========
+# Do NOT ignore the theme folder itself, just its internal .git if needed
+/themes/blowfish/.git

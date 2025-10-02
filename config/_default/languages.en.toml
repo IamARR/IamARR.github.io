@@ -1,0 +1,31 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "A. Ruiz"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  favicon = "favicon.png" # or "favicon.ico" if you used an .ico file
+  copyright = "&copy; 2025 Adrián Ruiz. All Rights Reserved."
+
+ [params.author]
+   name = "Adrián Ruiz"
+   email = "adrian.ruiz@uis.no"
+   image = "https://avatars.githubusercontent.com/u/33655254?v=4"
+   imageQuality = 96
+   headline = "Ph.D. in Automatic Control, Robotics, and Computer Vision"
+#   bio = "A little bit about you"
+   links = [
+     { email = "mailto:adrian.ruiz@uis.no" },
+     { github = "https://github.com/IamARR" },
+     { google-scholar = "https://scholar.google.com/citations?user=c5Z7-usAAAAJ&hl=en" },
+     { orcid = "https://orcid.org/0000-0002-0387-4235" },
+     { researchgate = "https://www.researchgate.net/profile/Adrian-Ruiz-11" },
+   ]
